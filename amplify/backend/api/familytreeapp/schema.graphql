@@ -1,0 +1,22 @@
+type IndMobileNumber {
+  MobileNumber: AWSPhone
+}
+
+type FamilyMember @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  firstName: String!
+  lastName: String!
+  dateOfBirth: AWSDate!
+  email: AWSEmail
+  mobileNumber: IndMobileNumber
+  currentOccupation: String
+  placeOfBirth: String
+  address: String!
+  cityTown: String!
+  pincode: Int!
+  fatherName: String
+  children: [String]
+  maritalStatus: String!
+  sibling: [String]
+}
+ 

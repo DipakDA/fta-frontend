@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-familytreeapp-dev-8eef8-authRole",
+      "UnauthRoleArn": "arn:aws:iam::905418403361:role/amplify-familytreeapp-dev-8eef8-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::905418403361:role/amplify-familytreeapp-dev-8eef8-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-familytreeapp-dev-8eef8-deployment",
+      "UnauthRoleName": "amplify-familytreeapp-dev-8eef8-unauthRole",
+      "StackName": "amplify-familytreeapp-dev-8eef8",
+      "StackId": "arn:aws:cloudformation:us-west-2:905418403361:stack/amplify-familytreeapp-dev-8eef8/a61a9720-0514-11ef-b328-06772ef0448f",
+      "AmplifyAppId": "d1z031w4tiykdq"
+    }
+  }
+}
