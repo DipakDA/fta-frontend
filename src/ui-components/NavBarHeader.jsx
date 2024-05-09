@@ -7,8 +7,8 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "./utils";
-import LogoWithText from "./LogoWithText";
 import { Flex, Image, Text } from "@aws-amplify/ui-react";
+import LogoWithText from "./LogoWithText";
 import MyIcon from "./MyIcon";
 export default function NavBarHeader(props) {
   const { overrides, ...rest } = props;
@@ -27,6 +27,22 @@ export default function NavBarHeader(props) {
       {...getOverrideProps(overrides, "NavBarHeader")}
       {...rest}
     >
+      <Image
+        width="70px"
+        height="79px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        shrink="0"
+        position="relative"
+        padding="0px 0px 0px 0px"
+        objectFit="cover"
+        {...getOverrideProps(
+          overrides,
+          "DALL\u00B7E 2024-05-08 21.06.01 - Design a logo for a family tree web app 1"
+        )}
+      ></Image>
       <LogoWithText
         width="127.88px"
         height="18.91px"
@@ -72,8 +88,8 @@ export default function NavBarHeader(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="Dashboard"
-          {...getOverrideProps(overrides, "Dashboard")}
+          children="My Profile"
+          {...getOverrideProps(overrides, "My Profile")}
         ></Text>
         <Text
           fontFamily="Inter"
@@ -93,8 +109,8 @@ export default function NavBarHeader(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="Jobs"
-          {...getOverrideProps(overrides, "Jobs")}
+          children="Search"
+          {...getOverrideProps(overrides, "Search")}
         ></Text>
         <Text
           fontFamily="Inter"
@@ -114,8 +130,8 @@ export default function NavBarHeader(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="Applicants"
-          {...getOverrideProps(overrides, "Applicants")}
+          children="Family Tree"
+          {...getOverrideProps(overrides, "Family Tree")}
         ></Text>
         <Text
           fontFamily="Inter"
@@ -135,8 +151,8 @@ export default function NavBarHeader(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="Company"
-          {...getOverrideProps(overrides, "Company")}
+          children="Contact Admins"
+          {...getOverrideProps(overrides, "Contact Admins")}
         ></Text>
       </Flex>
       <Flex

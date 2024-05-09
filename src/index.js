@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '@aws-amplify/ui-react/styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Amplify } from 'aws-amplify';
 import { ThemeProvider } from '@aws-amplify/ui-react';
