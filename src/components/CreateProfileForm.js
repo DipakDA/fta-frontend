@@ -10,12 +10,10 @@ function CreateProfileForm() {
             <Form.Label style={{ color: 'black', fontSize: '20px' }}>First name</Form.Label>
             <Form.Control type="text" placeholder="Enter first name" />
           </Form.Group>
-
           <Form.Group className="mb-3" controlId="formDOB">
             <Form.Label style={{ color: 'black', fontSize: '20px' }}>Date of birth</Form.Label>
             <Form.Control type="date" />
           </Form.Group>
-
           <Form.Group className="mb-3" controlId="formCity">
             <Form.Label style={{ color: 'black', fontSize: '20px' }}>City/Town</Form.Label>
             <Form.Control type="text" placeholder="Enter city or town" />
@@ -35,13 +33,9 @@ function CreateProfileForm() {
             <Form.Label style={{ color: 'black', fontSize: '20px' }}>Occupation</Form.Label>
             <Form.Control type="text" placeholder="Enter current occupation" />
           </Form.Group>
-
         </Col>
       </Row>
-
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
+      <Button variant="primary" type="submit">Submit</Button>
     </Form>
   );
 }

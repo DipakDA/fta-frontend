@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Amplify } from 'aws-amplify';
 import { ThemeProvider } from '@aws-amplify/ui-react';
 
-import amplifyconfig from './amplifyconfiguration.json';
+import amplifyconfig from './aws-exports';
 
 Amplify.configure(amplifyconfig);
 
